@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,30 @@
     <title>BrunoFólio</title>
     <script src="js/nav.js" defer></script>
     <script src="js/darkmode.js" defer></script>
+    <script src="js/desafiofugido.js" defer></script>
 </head>
+
 <body>
     <header>
-
+        <div class="logo">BrunoFólio</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="pages/sobre.html">Sobre</a></li>
+                <li><a href="pages/repositorio.html">Projetos</a></li>
+                <li><a href="pages/percurso.html">Percurso</a></li>
+                <li><a href="pages/tecnologias.html">Tecnologias</a></li>
+                <li><a href="pages/contactos.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="dark-mode-toggle">
+            <input type="checkbox" id="darkmode-toggle">
+            <label for="darkmode-toggle">Dark Mode</label>
+        </div>
     </header>
     <main>
         <section id="hero"></section>
@@ -19,7 +40,8 @@
         <section id="tecnologias"></section>
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
