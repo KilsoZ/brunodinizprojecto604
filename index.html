@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>BrunoFólio</title>
     <script src="js/nav.js" defer></script>
     <script src="js/darkmode.js" defer></script>
     <script src="js/desafiofugido.js" defer></script>
+    <script src="js/matrix.js" defer></script>
 </head>
 
 <body>
@@ -30,17 +32,21 @@
         </div>
         <div class="dark-mode-toggle">
             <input type="checkbox" id="darkmode-toggle">
-            <label for="darkmode-toggle">Dark Mode</label>
+            <label for="darkmode-toggle">Light Mode</label>
         </div>
     </header>
 
     <main>
         <section id="hero">
-            <h1>Bruno Diniz</h1>
-            <h2>"A perspectiva de quem já fez tanto e tão pouco"</h2>
-            <p>Técnico TI e Programador em treino</p>
-            <a href="pages/contactos.html" class="btn">Contacta-me!</a>
-            <img src="" alt="Foto de Bruno Diniz" class="headshot">
+            <canvas id="matrix-canvas"></canvas>
+            <div class="hero-text">
+                <h1>Bruno Diniz</h1>
+                <h2>"A perspectiva de quem já fez tanto e tão pouco"</h2>
+                <p>Técnico TI e Programador em treino</p>
+                <a href="pages/contactos.html" class="btn">Contacta-me!</a>
+            </div>
+            
+            <img src="img/headshot.png" alt="Foto de Bruno Diniz" class="headshot">
         </section>
         <section id="projetos">
             <div class="cards-container">
@@ -123,7 +129,9 @@
         </section>
     </main>
     <footer>
-        
+        <a href="mailto:brunomiguelr93@gmail.com">brunomiguelr93@gmail.com</a>
+        <a href="tel:+351938407133">+351 938 407 133</a>
+        <p>© 2026 Bruno Miguel Roque Diniz</p>
     </footer>
 </body>
 
