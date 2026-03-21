@@ -12,6 +12,17 @@
 
 }
 
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--cor-de-destaque);
+    color: var(--cor-de-fundo);
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
 body{
     font-family: 'Share Tech Mono', monospace;
     background-color: var(--cor-de-fundo);
@@ -122,17 +133,6 @@ section {
     box-shadow: 0 0 12px rgba(0,0,0,0.15);
 }
 
-#hero a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: var(--cor-de-destaque);
-    color: var(--cor-de-fundo);
-    text-decoration: none;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-}
-
 #matrix-canvas {
     position: absolute;
     top: 0;
@@ -148,7 +148,26 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px
+    padding: 0 150px;
+    gap: 50px;
+    
+}
+
+.card {
+    flex: 1;
+    max-width: 500px;
+    border: var(--cor-de-destaque) 2px solid
+}
+
+.card img {
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: var(--cor-de-destaque) 2px solid
+}
+
+.card-text{
+    padding: 10px;
 }
 
 #tecnologias {
