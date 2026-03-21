@@ -29,10 +29,14 @@ for (let i = 0; i < colunas; i++) {
 
 //Draw = funçao para desenhar as letras no canvas, e para atualizar a posiçao das letras, para que caiam
 const draw = () => {
-	ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+	const isLightMode = document.body.classList.contains('light-mode');
+	ctx.fillStyle = isLightMode ? 'rgba(232, 255, 232, 0.05)' : 'rgba(0, 0, 0, 0.05)';
+
 	ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+	ctx.fillStyle = isLightMode ? '#007a1f' : '#0F0';
 	
-	ctx.fillStyle = '#0F0';
+	
 	ctx.font = tamanhoLetra + 'px monospace';
 
     //loop para desenhar as letras no canvas, e para atualizar a posiçao das letras, para que caiam
