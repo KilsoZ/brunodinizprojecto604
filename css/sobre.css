@@ -1,0 +1,33 @@
+.intro {
+    padding: 50px 600px;
+}
+
+.intro h2{
+    padding-bottom:20px;
+}
+
+
+.bio-bloco{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    gap:10px ;
+}
+
+.bio-bloco p{
+    flex: 1;
+    max-width: 900px;
+}
+
+.bio-bloco img{
+    flex: 1;
+    max-width: 15%;
+    height: auto;
+    object-fit: cover;
+    border: var(--cor-de-destaque) 2px solid
+}
+
+.end {
+    padding: 50px 600px;
+}
