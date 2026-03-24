@@ -7,7 +7,7 @@
 Este repositório contém o meu projeto de portfólio feito no âmbito da disciplina.  
 A ideia foi criar um site simples e funcional onde apresento o meu percurso, as tecnologias que fui aprendendo, alguns projetos e certificações.
 
----
+
 
 ## 🎯 Objetivos  
 
@@ -17,10 +17,12 @@ A ideia foi criar um site simples e funcional onde apresento o meu percurso, as 
 - Adicionar algumas animações simples (Scroll Reveal)  
 - Manter o projeto organizado  
 
----
+
 
 ## 🧱 Estrutura do Projeto  
 
+
+```bash
 brunodinizprojecto604/
 │
 ├── assets/
@@ -31,8 +33,9 @@ brunodinizprojecto604/
 ├── js/
 ├── pages/
 └── index.html
+```
 
----
+
 
 ## 🛠️ Tecnologias  
 
@@ -41,7 +44,7 @@ brunodinizprojecto604/
 - JavaScript  
 - Git / GitHub  
 
----
+
 
 ## 📄 O que o site tem  
 
@@ -51,13 +54,13 @@ brunodinizprojecto604/
 - Tecnologias – o que já aprendi + certificações  
 - Projetos – trabalhos realizados  
 
----
+
 
 ## 🎓 Certificações  
 
 - Linux Essentials — Cisco Networking Academy (2026)  
 
----
+
 
 ## ▶️ Como ver o projeto  
 
@@ -67,7 +70,7 @@ git clone https://github.com/KilsoZ/brunodinizprojecto604
 
 Depois abrir o index.html no navegador.  
 
----
+
 
 ## 📬 Contacto  
 
