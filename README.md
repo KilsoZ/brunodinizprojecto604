@@ -21,7 +21,6 @@ O objetivo principal foi criar um site simples e funcional que apresentasse o me
     Integrar ficheiros externos (imagens, PDFs, CSS, JS)
 
 🧱 Estrutura do Projeto
-Code
 
 brunodinizprojecto604/
 │
@@ -37,6 +36,7 @@ brunodinizprojecto604/
 │
 └── index.html           → Página inicial
 
+
 🛠️ Tecnologias Utilizadas
 
     HTML5 — estrutura das páginas
@@ -49,21 +49,21 @@ brunodinizprojecto604/
 
 📄 Conteúdo do Site
 Página Inicial
-
 Apresentação geral e acesso rápido às restantes secções do portfólio.
+
 Sobre
-
 Página onde me apresento de forma mais detalhada: quem sou, interesses, área de estudo e objetivos futuros.
+
 Percurso
-
 Linha temporal com o meu percurso académico e formativo.
-Tecnologias
 
+Tecnologias
 Lista das tecnologias que aprendi, organizadas por categorias.
 Inclui também uma secção de certificações, onde é possível clicar e abrir o PDF.
-Projetos
 
+Projetos
 Espaço dedicado a projetos desenvolvidos ao longo do curso.
+
 🎓 Certificações Integradas
 
     Linux Essentials — Cisco Networking Academy (2026)  
@@ -72,8 +72,7 @@ Espaço dedicado a projetos desenvolvidos ao longo do curso.
 ▶️ Como visualizar o projeto
 
     Fazer download ou clonar o repositório:
-    Code
-
+   
     git clone https://github.com/KilsoZ/brunodinizprojecto604
 
     Abrir o ficheiro index.html no navegador.
