@@ -1,6 +1,6 @@
 # 📘 Projeto — Portfólio Pessoal  
 
-**Disciplina:** UC00604 - Programar para a web, na vertente frontend (cliente-side)  
+**Disciplina:** Programação / Tecnologias Web  
 **Aluno:** Bruno Miguel Roque Diniz  
 **Ano Letivo:** 2025/2026  
 
@@ -19,15 +19,7 @@ A ideia foi criar um site simples e funcional onde apresento o meu percurso, as 
 
 ---
 
-<<<<<<< HEAD
 ## 🧱 Estrutura do Projeto  
-=======
-    Estruturar o projeto de forma limpa e organizada
-
-    Integrar ficheiros externos (imagens, PDFs, CSS, JS)
-
-🧱 Estrutura do Projeto
->>>>>>> 9367a10dba49331e5bdc040289a39a9aec2ecff5
 
 brunodinizprojecto604/
 │
@@ -40,12 +32,7 @@ brunodinizprojecto604/
 ├── pages/
 └── index.html
 
-<<<<<<< HEAD
 ---
-=======
-
-🛠️ Tecnologias Utilizadas
->>>>>>> 9367a10dba49331e5bdc040289a39a9aec2ecff5
 
 ## 🛠️ Tecnologias  
 
@@ -58,7 +45,6 @@ brunodinizprojecto604/
 
 ## 📄 O que o site tem  
 
-<<<<<<< HEAD
 - Página Inicial – visão geral do portfólio  
 - Sobre – informação sobre mim  
 - Percurso – o meu percurso académico  
@@ -74,40 +60,14 @@ brunodinizprojecto604/
 ---
 
 ## ▶️ Como ver o projeto  
-=======
-📄 Conteúdo do Site
-Página Inicial
-Apresentação geral e acesso rápido às restantes secções do portfólio.
-
-Sobre
-Página onde me apresento de forma mais detalhada: quem sou, interesses, área de estudo e objetivos futuros.
-
-Percurso
-Linha temporal com o meu percurso académico e formativo.
-
-Tecnologias
-Lista das tecnologias que aprendi, organizadas por categorias.
-Inclui também uma secção de certificações, onde é possível clicar e abrir o PDF.
-
-Projetos
-Espaço dedicado a projetos desenvolvidos ao longo do curso.
-
-🎓 Certificações Integradas
->>>>>>> 9367a10dba49331e5bdc040289a39a9aec2ecff5
 
 Clonar o repositório:  
 
 git clone https://github.com/KilsoZ/brunodinizprojecto604  
 
-<<<<<<< HEAD
 Depois abrir o index.html no navegador.  
 
 ---
-=======
-    Fazer download ou clonar o repositório:
-   
-    git clone https://github.com/KilsoZ/brunodinizprojecto604
->>>>>>> 9367a10dba49331e5bdc040289a39a9aec2ecff5
 
 ## 📬 Contacto  
 
