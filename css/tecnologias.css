@@ -1,0 +1,97 @@
+
+
+#tecnologias {
+    padding: 20px;
+}
+
+#tecnologias h1 {
+    color: var(--cor-de-destaque);
+    margin-bottom: 30px;
+    text-shadow: 0 0 8px rgba(0,255,65,0.4);
+}
+
+/* Categorias */
+.tech-category {
+    margin-bottom: 40px;
+}
+
+.tech-category h2 {
+    color: var(--cor-de-destaque);
+    margin-bottom: 15px;
+}
+
+/* Grelha de tecnologias */
+.tech-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.tech-grid span {
+    border: 1px solid var(--cor-de-destaque);
+    padding: 8px 14px;
+    border-radius: 6px;
+    background: rgba(0,255,65,0.05);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.tech-grid span.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tech-grid span:hover {
+    background: rgba(0,255,65,0.15);
+    box-shadow: 0 0 10px var(--cor-de-destaque);
+}
+
+.cert-link {
+    border: 1px solid var(--cor-de-destaque);
+    padding: 8px 14px;
+    border-radius: 6px;
+    background: rgba(0,255,65,0.05);
+    color: var(--cor-de-destaque);
+    text-decoration: none;
+    transition: 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    display: inline-block;
+}
+
+.cert-link.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cert-link:hover {
+    background: rgba(0,255,65,0.15);
+    box-shadow: 0 0 10px var(--cor-de-destaque);
+}
+
+
+
+@media (max-width: 768px) {
+
+    #tecnologias h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .tech-category {
+        margin-bottom: 30px;
+    }
+
+    .tech-grid {
+        gap: 10px;
+    }
+
+    .tech-grid span {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        border-width: 2px;
+    }
+}
+

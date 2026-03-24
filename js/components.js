@@ -6,7 +6,7 @@ const headerHTML = `
         <nav>
             <ul class="nav-links">
                 <li><a href="/pages/sobre.html">Sobre</a></li>
-                <li><a href="/pages/repositorio.html">Projetos</a></li>
+                <li><a href="/pages/projetos.html">Projetos</a></li>
                 <li><a href="/pages/percurso.html">Percurso</a></li>
                 <li><a href="/pages/tecnologias.html">Tecnologias</a></li>
             </ul>

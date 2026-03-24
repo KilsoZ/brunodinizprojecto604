@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const items = document.querySelectorAll(".timeline li");
+
+    // Seleciona elementos animáveis em todas as páginas
+    const items = document.querySelectorAll(
+        ".card, .timeline-item, .tech-grid span, .cert-link"
+    );
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -7,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 entry.target.classList.add("show");
             }
         });
-    }, { threshold: 0.3 });
+    }, { threshold: 0.5 });
 
     items.forEach(item => observer.observe(item));
 });
