@@ -1,0 +1,42 @@
+#projetos {
+    padding: 20px;
+}
+
+#projetos h1 {
+    color: var(--cor-de-destaque);
+    margin-bottom: 30px;
+    text-shadow: 0 0 8px rgba(0,255,65,0.4);
+}
+
+.projeto {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 3px solid var(--cor-de-destaque);
+    background: rgba(0,255,65,0.05);
+    border-radius: 6px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.4s ease;
+}
+
+.projeto.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.projeto h2 {
+    margin-bottom: 8px;
+    color: var(--cor-de-destaque);
+}
+
+.projeto a {
+    color: var(--cor-de-destaque);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.projeto a:hover {
+    text-decoration: underline;
+}

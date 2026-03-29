@@ -6,13 +6,14 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-//constantes com as letras que queremos utilizar
-const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
-const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-const nums = '0123456789';
+//constante com o que queremos utilizar no matrix
+const chars = [
+    "{", "}", "[", "]", "<", ">", "/", "\\", "=", "+", "-", "*", "%", "$", "#", "@",
+    "if", "else", "var", "let", "null", "true", "false",
+    "<div>", "</div>", "<html>", "<script>",
+    "0", "1", "A", "B", "C", "D", "E", "F"
+];
 
-//concatenaçao das constantes para criar o alfabeto completo que queremos utilizar
-const alphabet = katakana + latin + nums;
 
 //definir o tamanho da letra
 const tamanhoLetra = 12;
@@ -43,7 +44,7 @@ const draw = () => {
 	for(let i = 0; i < gotas.length; i++)
 	{
         //charAt = metodo para apanhar um caracter do alfabeto, e math.random para randomizar a escolha da letra, para que nao sejam sempre as mesmas letras a cair
-		const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
+		const text = chars[Math.floor(Math.random() * chars.length)];
         //fillText = metodo para desenhar a letra no canvas, e i*tamanhoLetra para posicionar a letra na horizontal,
         //  e gotas[i]*tamanhoLetra para posicionar a letra na vertical
 		ctx.fillText(text, i*tamanhoLetra, gotas[i]*tamanhoLetra);

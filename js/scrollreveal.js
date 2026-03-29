@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // Seleciona elementos animáveis em todas as páginas
+    // Seleciona elementos animáveis em todas as páginas que quero que tenham animação de scroll
     const items = document.querySelectorAll(
-        ".card, .timeline-item, .tech-grid span, .cert-link"
+        ".card, .timeline-item, .tech-grid span, .cert-link, .projeto"
     );
 
     const observer = new IntersectionObserver((entries) => {
